@@ -2,21 +2,22 @@
 
 > My journey to becoming a Production-Ready Backend Engineer.
 
-This repository contains my daily backend engineering practice, coding exercises, mini projects, and notes.
+This repository documents my complete backend engineering journey—from JavaScript fundamentals to building scalable backend applications and deploying them to production.
 
-The goal is not just to learn syntax, but to build strong problem-solving skills and understand how real backend systems work.
+The focus is on learning by building real-world projects, writing clean code, and understanding how production backend systems work.
 
 ---
 
 # 📅 Progress
 
 | Day | Topics | Status |
-|------|--------|--------|
+|------|-----------------------------------------------|--------|
 | Day 1 | JavaScript Basics (Variables, Data Types, Operators) | ✅ |
 | Day 2 | Conditionals & Login Mini Project | ✅ |
-| Day 3 | Problem Solving & Backend Thinking | ✅ |
+| Day 3 | JavaScript Problem Solving & Backend Thinking | ✅ |
 | Day 4 | Loops, Functions & Mini Projects | ✅ |
-| Day 5 | Advanced Control Flow & Problem Solving | ✅ |
+| Day 5 | Advanced JavaScript Control Flow & Problem Solving | ✅ |
+| Day 6 | Arrays, Objects, Template Strings & Student Management Project | ✅ |
 
 ---
 
@@ -30,27 +31,29 @@ backend-journey/
 ├── day-3/
 ├── day-4/
 ├── day-5/
+├── day-6/
 │
 └── README.md
 ```
 
 ---
 
-# 🎯 What I'm Learning
+# 🎯 Roadmap
 
-## JavaScript Fundamentals
+## JavaScript
 
-- Variables
-- Data Types
-- Operators
-- Conditionals
-- Loops
-- Functions
-- Arrays
-- Objects
-- Scope
-- ES6+
-- Problem Solving
+- ✅ Variables
+- ✅ Data Types
+- ✅ Operators
+- ✅ Conditionals
+- ✅ Loops
+- ✅ Functions
+- ✅ Arrays
+- ✅ Objects
+- ✅ Template Strings
+- 🔄 Higher Order Functions
+- 🔄 ES6+
+- 🔄 Async JavaScript
 
 ---
 
@@ -62,13 +65,14 @@ backend-journey/
 - Authentication
 - JWT
 - Middleware
-- File Uploads
-- Error Handling
 - MongoDB
 - SQL
-- Prisma
+- Prisma ORM
+- File Uploads
+- Email Services
 - Docker
 - Redis
+- WebSockets
 - Microservices
 
 ---
@@ -77,22 +81,24 @@ backend-journey/
 
 - HTTP
 - Networking
-- Databases
-- Caching
 - Authentication
 - Authorization
+- Databases
+- Caching
 - System Design
 - Scalability
 
 ---
 
-# 📈 Goals
+# 🚀 Major Projects
 
-- Master JavaScript
-- Become Production Ready in Backend Development
-- Build Real Projects
-- Learn System Design
-- Crack Backend Interviews
+- URL Shortener
+- Authentication Service
+- Blog API
+- E-Commerce Backend
+- Social Media API
+- Real-Time Chat Backend
+- Production Deployment
 
 ---
 
@@ -103,6 +109,7 @@ backend-journey/
 - Express.js
 - MongoDB
 - SQL
+- Prisma
 - Git
 - GitHub
 - Docker
@@ -112,34 +119,49 @@ backend-journey/
 
 # 💻 Daily Workflow
 
-- Learn a concept
-- Write code from scratch
-- Solve problems
-- Build mini projects
-- Commit progress daily
+- Learn a new concept
+- Practice by writing code
+- Build a mini project
+- Push progress to GitHub
+- Maintain daily consistency
 
 ---
 
 # 📌 Current Progress
 
-✅ Day 5 Completed
+✅ Day 6 Completed
 
-Next:
+### Next
 
-- Objects
-- Array Methods
-- DOM Basics
-- Async JavaScript
-- Node.js Fundamentals
+- Object Methods
+- Object.keys()
+- Object.values()
+- Object.entries()
+- for...in Loop
+- Higher Order Functions
+- map()
+- filter()
+- reduce()
+- find()
 
 ---
 
-## 🤝 Connect
+# 📊 Repository Goal
 
-GitHub: **Vineeth-28**
+- Build strong JavaScript fundamentals
+- Become a Production-Ready Backend Engineer
+- Build multiple production-grade backend projects
+- Learn scalable backend architecture
+- Prepare for Backend & DevOps interviews
 
 ---
 
-### ⭐ Consistency beats intensity.
+## 👨‍💻 Author
 
-**One commit every day.**
+**Vineet**
+
+Backend Engineer Journey 🚀
+
+---
+
+> ⭐ **One day. One commit. One step closer to becoming a Backend Engineer.**
