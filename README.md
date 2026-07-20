@@ -2,9 +2,9 @@
 
 > My journey to becoming a Production-Ready Backend Engineer.
 
-This repository documents my complete backend engineering journey—from JavaScript fundamentals to building scalable backend applications and deploying them to production.
+This repository contains my daily backend engineering practice, coding exercises, mini projects, and notes.
 
-The focus is on learning by building real-world projects, writing clean code, and understanding how production backend systems work.
+The goal is not just to learn syntax, but to build strong problem-solving skills and understand how real backend systems work.
 
 ---
 
@@ -16,8 +16,7 @@ The focus is on learning by building real-world projects, writing clean code, an
 | Day 2 | Conditionals & Login Mini Project | ✅ |
 | Day 3 | JavaScript Problem Solving & Backend Thinking | ✅ |
 | Day 4 | Loops, Functions & Mini Projects | ✅ |
-| Day 5 | Advanced JavaScript Control Flow & Problem Solving | ✅ |
-| Day 6 | Arrays, Objects, Template Strings & Student Management Project | ✅ |
+| Day 5 | Advanced Control Flow & Problem Solving | ✅ |
 
 ---
 
@@ -31,29 +30,27 @@ backend-journey/
 ├── day-3/
 ├── day-4/
 ├── day-5/
-├── day-6/
 │
 └── README.md
 ```
 
 ---
 
-# 🎯 Roadmap
+# 🎯 What I'm Learning
 
 ## JavaScript
 
-- ✅ Variables
-- ✅ Data Types
-- ✅ Operators
-- ✅ Conditionals
-- ✅ Loops
-- ✅ Functions
-- ✅ Arrays
-- ✅ Objects
-- ✅ Template Strings
-- 🔄 Higher Order Functions
-- 🔄 ES6+
-- 🔄 Async JavaScript
+- Variables
+- Data Types
+- Operators
+- Conditionals
+- Loops
+- Functions
+- Arrays
+- Objects
+- Scope
+- ES6+
+- Problem Solving
 
 ---
 
@@ -65,14 +62,13 @@ backend-journey/
 - Authentication
 - JWT
 - Middleware
+- File Uploads
+- Error Handling
 - MongoDB
 - SQL
-- Prisma ORM
-- File Uploads
-- Email Services
+- Prisma
 - Docker
 - Redis
-- WebSockets
 - Microservices
 
 ---
@@ -81,35 +77,32 @@ backend-journey/
 
 - HTTP
 - Networking
-- Authentication
-- Authorization
 - Databases
 - Caching
+- Authentication
+- Authorization
 - System Design
 - Scalability
 
 ---
 
-# 🚀 Major Projects
+# 📈 Goals
 
-- URL Shortener
-- Authentication Service
-- Blog API
-- E-Commerce Backend
-- Social Media API
-- Real-Time Chat Backend
-- Production Deployment
+- Master JavaScript
+- Become Production Ready in Backend Development
+- Build Real Projects
+- Learn System Design
+- Crack Backend Interviews
 
 ---
 
 # 🛠 Tech Stack
 
-- JavaScript
+- JavaScript (ES6+)
 - Node.js
 - Express.js
 - MongoDB
 - SQL
-- Prisma
 - Git
 - GitHub
 - Docker
@@ -119,49 +112,34 @@ backend-journey/
 
 # 💻 Daily Workflow
 
-- Learn a new concept
-- Practice by writing code
-- Build a mini project
-- Push progress to GitHub
-- Maintain daily consistency
+- Learn a concept
+- Write code from scratch
+- Solve problems
+- Build mini projects
+- Commit progress daily
 
 ---
 
 # 📌 Current Progress
 
-✅ Day 6 Completed
+✅ Day 5 Completed
 
-### Next
+Next:
 
-- Object Methods
-- Object.keys()
-- Object.values()
-- Object.entries()
-- for...in Loop
-- Higher Order Functions
-- map()
-- filter()
-- reduce()
-- find()
+- Objects
+- Array Methods
+- DOM Basics
+- Async JavaScript
+- Node.js Fundamentals
 
 ---
 
-# 📊 Repository Goal
+## 🤝 Connect
 
-- Build strong JavaScript fundamentals
-- Become a Production-Ready Backend Engineer
-- Build multiple production-grade backend projects
-- Learn scalable backend architecture
-- Prepare for Backend & DevOps interviews
+GitHub: **Vineeth-28**
 
 ---
 
-## 👨‍💻 Author
+### ⭐ Consistency beats intensity.
 
-**Vineet**
-
-Backend Engineer Journey 🚀
-
----
-
-> ⭐ **One day. One commit. One step closer to becoming a Backend Engineer.**
+**One commit every day.**
