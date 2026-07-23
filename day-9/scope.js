@@ -1,6 +1,4 @@
-/************************************************
- Day 9 - JavaScript Scope
-************************************************/
+
 
 /*
 Global Scope
@@ -13,7 +11,6 @@ function greet() {
 }
 
 greet();
-console.log(company);
 
 /*
 Function Scope
@@ -25,7 +22,6 @@ function employee() {
 }
 
 employee();
-// console.log(salary);
 
 /*
 Block Scope
@@ -35,8 +31,6 @@ if (true) {
     let city = "Delhi";
     console.log(city);
 }
-
-// console.log(city);
 
 /*
 Nested Scope
@@ -79,28 +73,14 @@ function first() {
 
 first();
 
-// | Variable | Block Scope | Function Scope                                  |
-// | -------- | ----------- | ----------------------------------------------- |
-// | `var`    | ❌ No        | ✅ Yes                                           |
-// | `let`    | ✅ Yes       | ✅ Yes (because a function body is also a block) |
-// | `const`  | ✅ Yes       | ✅ Yes (because a function body is also a block) |
+/*
+Lexical Scope
+*/
 
+const language = "JavaScript";
 
-// 🧠 Memory Trick
+function backend() {
+    console.log(language);
+}
 
-// Imagine three boxes:
-
-// Global
-// │
-// ├── Function
-// │      │
-// │      └── if
-// │             │
-// │             └── for
-// var
-// Ignores if
-// Ignores for
-// Stops at the function
-// let / const
-// Respect every pair of {}
-// They stop at the nearest enclosing block.
+backend();

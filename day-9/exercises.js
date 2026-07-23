@@ -14,10 +14,6 @@ function test() {
 
 test();
 
-// Answer:
-// 10
-// Function can access Global Scope
-
 /*
 Exercise 2
 */
@@ -27,10 +23,6 @@ function demo() {
 }
 
 // console.log(b);
-
-// Answer:
-// ReferenceError
-// b belongs to demo()
 
 /*
 Exercise 3
@@ -42,10 +34,6 @@ if (true) {
 
 // console.log(c);
 
-// Answer:
-// ReferenceError
-// let follows block scope
-
 /*
 Exercise 4
 */
@@ -56,10 +44,6 @@ if (true) {
 
 console.log(d);
 
-// Answer:
-// 40
-// var ignores block scope
-
 /*
 Challenge 1
 */
@@ -67,27 +51,18 @@ Challenge 1
 const num = 100;
 
 function one() {
-
     const value = 200;
 
     if (true) {
-
         const total = 300;
 
         console.log(num);
         console.log(value);
         console.log(total);
-
     }
-
 }
 
 one();
-
-// Answer:
-// 100
-// 200
-// 300
 
 /*
 Challenge 2
@@ -101,58 +76,40 @@ function backend() {
 
 // console.log(framework);
 
-// Answer:
-// ReferenceError
-
 /*
 Challenge 3
 */
 
-let x = 10;
+let score = 10;
 
 function first() {
-
-    let x = 20;
+    let score = 20;
 
     function second() {
-
-        console.log(x);
-
+        console.log(score);
     }
 
     second();
-
 }
 
 first();
-
-// Answer:
-// 20
-// Scope Chain
 
 /*
 Boss Question
 */
 
-let a1 = 1;
+let value = 1;
 
 function one1() {
-
-    let a1 = 2;
+    let value = 2;
 
     function two() {
+        let value = 3;
 
-        let a1 = 3;
-
-        console.log(a1);
-
+        console.log(value);
     }
 
     two();
-
 }
 
 one1();
-
-// Answer:
-// 3

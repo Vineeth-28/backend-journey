@@ -19,7 +19,8 @@ The goal is not just to learn syntax, but to understand how real backend applica
 | Day 5 | Advanced Control Flow & Problem Solving | ✅ |
 | Day 6 | Arrays, Objects & Student Management Mini Project | ✅ |
 | Day 7 | Object Methods, Higher Order Functions & Employee Management System | ✅ |
-| Day 8 | JavaScript Coercion, Type Conversion & User Registration Validator | 🚧 |
+| Day 8 | JavaScript Coercion, Type Conversion & User Registration Validator | ✅ |
+| Day 9 | Scope, Lexical Scope, Scope Chain, Hoisting, TDZ & Employee Access Management System | ✅ |
 
 ---
 
@@ -36,6 +37,7 @@ backend-journey/
 ├── day-6/
 ├── day-7/
 ├── day-8/
+├── day-9/
 │
 └── README.md
 ```
@@ -58,7 +60,13 @@ backend-journey/
 - Object Methods
 - Higher Order Functions
 - Scope
-- Closures
+- Lexical Scope
+- Scope Chain
+- Variable Shadowing
+- Hoisting
+- Temporal Dead Zone (TDZ)
+- Function Declaration
+- Function Expression
 - Async JavaScript
 - ES6+
 - Problem Solving
@@ -140,16 +148,18 @@ Every topic follows the same process:
 
 # 📌 Current Progress
 
-- ✅ JavaScript Fundamentals (Core)
+- ✅ JavaScript Fundamentals
 - ✅ Arrays & Objects
 - ✅ Higher Order Functions
-- 🚧 JavaScript Coercion
-- ⏳ Scope
+- ✅ Type Coercion
+- ✅ Scope & Hoisting
 - ⏳ Callbacks
-- ⏳ Promises
 - ⏳ Closures
+- ⏳ Promises
 - ⏳ Async/Await
 - ⏳ Node.js
+- ⏳ Express.js
+- ⏳ MongoDB
 
 ---
 

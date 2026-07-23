@@ -1,4 +1,4 @@
-# Day 9 - JavaScript Scope
+# Day 9 - Scope, Hoisting & TDZ
 
 ## 📚 Topics Covered
 
@@ -9,35 +9,36 @@
 - Lexical Scope
 - Scope Chain
 - Variable Shadowing
-- var vs let vs const (Basics)
-
----
+- Hoisting
+- Temporal Dead Zone (TDZ)
+- var vs let vs const
+- Function Declaration
+- Function Expression
+- Function References vs Function Calls
 
 ## 📂 Files
 
 - scope.js
 - var-let-const.js
 - exercises.js
-- mini-project.js
+- mini-projects.js
 
----
+## 🚀 Mini Project
 
-## 📝 What I Learned
+Employee Access Management System
 
-- Variables are only accessible within their scope.
-- Child scopes can access parent scopes.
-- Parent scopes cannot access child scopes.
-- JavaScript searches upward through the scope chain.
-- Local variables shadow outer variables.
+### Features
 
----
+- Show company details
+- Find employee by ID
+- Check admin access
+- Hire new employees
+- Update employee count
 
-## 🚧 Status
+## 🎯 Key Learnings
 
-In Progress
-
-Remaining Topics:
-
-- Hoisting
-- Temporal Dead Zone (TDZ)
-- Final Scope Project
+- Understood how JavaScript resolves variables using the scope chain.
+- Learned the difference between `var`, `let`, and `const`.
+- Explored hoisting and the Temporal Dead Zone.
+- Practiced function declarations and function expressions.
+- Built a backend-style mini project using arrays, objects, loops, and functions.
