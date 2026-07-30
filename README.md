@@ -2,25 +2,28 @@
 
 > My journey to becoming a Production-Ready Backend Engineer.
 
-This repository documents my daily backend engineering journey—from JavaScript fundamentals to building scalable backend systems.
+This repository documents my journey of learning backend engineering from the ground up. Every day includes concept notes, hands-on coding, practice exercises, mini projects, interview preparation, and Git commits.
 
-The goal is not just to learn syntax, but to understand how real backend applications are designed, built, and deployed.
+The goal is to build a strong foundation in JavaScript, backend development, computer science fundamentals, and production-ready system design.
 
 ---
 
 # 📅 Progress
 
 | Day | Topics | Status |
-|------|---------------------------------------------------------------|--------|
+|------|--------------------------------------------------------------|:------:|
 | Day 1 | JavaScript Basics (Variables, Data Types, Operators) | ✅ |
 | Day 2 | Conditionals & Login Mini Project | ✅ |
 | Day 3 | JavaScript Problem Solving & Backend Thinking | ✅ |
 | Day 4 | Loops, Functions & Mini Projects | ✅ |
 | Day 5 | Advanced Control Flow & Problem Solving | ✅ |
-| Day 6 | Arrays, Objects & Student Management Mini Project | ✅ |
+| Day 6 | Arrays, Objects & Student Management System | ✅ |
 | Day 7 | Object Methods, Higher Order Functions & Employee Management System | ✅ |
-| Day 8 | JavaScript Coercion, Type Conversion & User Registration Validator | ✅ |
-| Day 9 | Scope, Lexical Scope, Scope Chain, Hoisting, TDZ & Employee Access Management System | ✅ |
+| Day 8 | Type Coercion, Type Conversion & User Registration Validator | ✅ |
+| Day 9 | Scope, Lexical Scope, Scope Chain, Hoisting & TDZ | ✅ |
+| Day 10 | Callbacks, Event Loop, Callback Queue & Async JavaScript | ✅ |
+| Day 11 | Promises, Promise Chaining, Error Handling & Microtask Queue | ✅ |
+| Day 12 | Closures | ⏳ |
 
 ---
 
@@ -38,81 +41,108 @@ backend-journey/
 ├── day-7/
 ├── day-8/
 ├── day-9/
+├── day-10/
+├── day-11/
 │
 └── README.md
 ```
 
 ---
 
-# 🎯 What I'm Learning
+# 📚 JavaScript Roadmap
 
-## JavaScript
+### Fundamentals
 
-- Variables
-- Data Types
-- Operators
-- Type Coercion
-- Conditionals
-- Loops
-- Functions
-- Arrays
-- Objects
-- Object Methods
-- Higher Order Functions
-- Scope
-- Lexical Scope
-- Scope Chain
-- Variable Shadowing
-- Hoisting
-- Temporal Dead Zone (TDZ)
-- Function Declaration
-- Function Expression
-- Async JavaScript
-- ES6+
-- Problem Solving
+- ✅ Variables
+- ✅ Data Types
+- ✅ Operators
+- ✅ Type Conversion
+- ✅ Type Coercion
+- ✅ Conditionals
+- ✅ Loops
+- ✅ Functions
+- ✅ Arrays
+- ✅ Objects
+- ✅ Object Methods
+- ✅ Higher Order Functions
 
----
+### Advanced JavaScript
 
-## Backend Development
-
-- Node.js
-- Express.js
-- REST APIs
-- Authentication
-- JWT
-- Middleware
-- File Uploads
-- Error Handling
-- MongoDB
-- SQL
-- Prisma
-- Docker
-- Redis
-- Microservices
-- System Design
+- ✅ Scope
+- ✅ Lexical Scope
+- ✅ Scope Chain
+- ✅ Variable Shadowing
+- ✅ Hoisting
+- ✅ Temporal Dead Zone (TDZ)
+- ✅ Function Declaration
+- ✅ Function Expression
+- ✅ Callback Functions
+- ✅ Callback Hell
+- ✅ Event Loop
+- ✅ Call Stack
+- ✅ Callback Queue
+- ✅ Promises
+- ✅ Promise Chaining
+- ✅ Error Handling
+- ✅ Microtask Queue
+- ⏳ Closures
+- ⏳ Async/Await
+- ⏳ Iterators & Generators
 
 ---
 
-## Computer Science
+# 🖥️ Backend Development
 
-- HTTP
-- Networking
-- Databases
-- Caching
-- Authentication
-- Authorization
-- Scalability
-- Distributed Systems
+- ⏳ Node.js
+- ⏳ Express.js
+- ⏳ REST APIs
+- ⏳ Authentication
+- ⏳ Authorization
+- ⏳ JWT
+- ⏳ Middleware
+- ⏳ File Uploads
+- ⏳ Error Handling
+- ⏳ MongoDB
+- ⏳ SQL
+- ⏳ Prisma
+- ⏳ Redis
+- ⏳ Docker
+- ⏳ Microservices
+- ⏳ System Design
+
+---
+
+# 🧠 Computer Science
+
+- ⏳ HTTP
+- ⏳ Networking
+- ⏳ Operating Systems
+- ⏳ DBMS
+- ⏳ RDBMS
+- ⏳ Caching
+- ⏳ Scalability
+- ⏳ Distributed Systems
 
 ---
 
 # 🛠 Tech Stack
 
+### Languages
+
 - JavaScript (ES6+)
+
+### Backend
+
 - Node.js
 - Express.js
+
+### Databases
+
 - MongoDB
 - SQL
+
+### DevOps & Tools
+
 - Git
 - GitHub
 - Docker
@@ -120,46 +150,67 @@ backend-journey/
 
 ---
 
-# 💻 Learning Workflow
+# 📖 Learning Workflow
 
-Every topic follows the same process:
+Every topic follows the same learning process:
 
-- 📚 Learn the concept
-- ✍️ Write code from scratch
+- 📚 Learn the theory
+- 💻 Write code from scratch
 - 🧩 Solve practice exercises
 - 🚀 Build a mini project
-- 📝 Write detailed notes
+- 📝 Create detailed notes
+- 🎯 Review interview questions
 - 🌿 Commit progress to GitHub
-- 🎤 Review interview questions
 
 ---
 
-# 📈 Goals
+# 🎯 Goals
 
-- Master JavaScript Fundamentals
-- Build Production-Ready Backend Applications
-- Learn Backend Architecture
-- Build Portfolio Projects
-- Master Databases
-- Learn System Design
-- Crack Backend Interviews
+- Master JavaScript
+- Become proficient in Node.js & Express
+- Build Production-Ready REST APIs
+- Learn Database Design
+- Master Authentication & Security
+- Learn Docker & Redis
+- Build Scalable Backend Systems
+- Understand System Design
+- Become Interview Ready
 
 ---
 
-# 📌 Current Progress
+# 📊 Current Progress
+
+```text
+JavaScript Fundamentals        ████████████████████ 100%
+
+Advanced JavaScript            ████████████░░░░░░░ 70%
+
+Backend Development            ░░░░░░░░░░░░░░░░░░░ 0%
+
+Computer Science               ░░░░░░░░░░░░░░░░░░░ 0%
+```
+
+---
+
+# 📌 Current Focus
 
 - ✅ JavaScript Fundamentals
-- ✅ Arrays & Objects
-- ✅ Higher Order Functions
-- ✅ Type Coercion
-- ✅ Scope & Hoisting
-- ⏳ Callbacks
+- ✅ Advanced JavaScript Basics
+- ✅ Callbacks
+- ✅ Promises
 - ⏳ Closures
-- ⏳ Promises
 - ⏳ Async/Await
 - ⏳ Node.js
-- ⏳ Express.js
-- ⏳ MongoDB
+
+---
+
+# 📈 Repository Stats
+
+- 📁 **Days Completed:** 11
+- 💻 **Code Files:** 70+
+- 🚀 **Mini Projects:** 10+
+- 📝 **Notes & Documentation:** Daily
+- 🌿 **Git Commits:** Daily
 
 ---
 
@@ -169,6 +220,6 @@ Every topic follows the same process:
 
 ---
 
-> **"Consistency beats intensity."**
+> **"Consistency beats intensity. Small improvements every day compound into extraordinary results."**
 
-### ⭐ One commit every day.
+### ⭐ One Commit Every Day
