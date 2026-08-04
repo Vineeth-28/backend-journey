@@ -23,7 +23,8 @@ The goal is to build a strong foundation in JavaScript, backend development, com
 | Day 9 | Scope, Lexical Scope, Scope Chain, Hoisting & TDZ | ✅ |
 | Day 10 | Callbacks, Event Loop, Callback Queue & Async JavaScript | ✅ |
 | Day 11 | Promises, Promise Chaining, Error Handling & Microtask Queue | ✅ |
-| Day 12 | Closures | ⏳ |
+| Day 12 | Closures | ✅ |
+| Day 13 | Async/Await | ⏳ |
 
 ---
 
@@ -43,6 +44,15 @@ backend-journey/
 ├── day-9/
 ├── day-10/
 ├── day-11/
+├── day-12/
+│   ├── closures.js
+│   ├── lexical-scope.js
+│   ├── private-variables.js
+│   ├── function-factory.js
+│   ├── closures-in-loops.js
+│   ├── backend-examples.js
+│   ├── exercises.js
+│   └── mini-project.js
 │
 └── README.md
 ```
@@ -85,7 +95,14 @@ backend-journey/
 - ✅ Promise Chaining
 - ✅ Error Handling
 - ✅ Microtask Queue
-- ⏳ Closures
+- ✅ Closures
+- ✅ Remembering Variables
+- ✅ Returning Functions
+- ✅ Private Variables
+- ✅ Function Factory
+- ✅ Closures in Loops
+- ✅ var vs let (Closures)
+- ✅ Closures — Backend Use Cases
 - ⏳ Async/Await
 - ⏳ Iterators & Generators
 
@@ -164,6 +181,15 @@ Every topic follows the same learning process:
 
 ---
 
+# 💡 Key Takeaways — Closures (Day 12)
+
+- Functions remember their lexical scope.
+- Every function call creates a new closure.
+- Closures provide private state.
+- Closures are used in real backend applications for encapsulation and state management.
+
+---
+
 # 🎯 Goals
 
 - Master JavaScript
@@ -183,7 +209,7 @@ Every topic follows the same learning process:
 ```text
 JavaScript Fundamentals        ████████████████████ 100%
 
-Advanced JavaScript            ████████████░░░░░░░ 70%
+Advanced JavaScript            ██████████████████░░ 90%
 
 Backend Development            ░░░░░░░░░░░░░░░░░░░ 0%
 
@@ -198,7 +224,7 @@ Computer Science               ░░░░░░░░░░░░░░░░�
 - ✅ Advanced JavaScript Basics
 - ✅ Callbacks
 - ✅ Promises
-- ⏳ Closures
+- ✅ Closures
 - ⏳ Async/Await
 - ⏳ Node.js
 
@@ -206,9 +232,9 @@ Computer Science               ░░░░░░░░░░░░░░░░�
 
 # 📈 Repository Stats
 
-- 📁 **Days Completed:** 11
-- 💻 **Code Files:** 70+
-- 🚀 **Mini Projects:** 10+
+- 📁 **Days Completed:** 12
+- 💻 **Code Files:** 78+
+- 🚀 **Mini Projects:** 11+
 - 📝 **Notes & Documentation:** Daily
 - 🌿 **Git Commits:** Daily
 
