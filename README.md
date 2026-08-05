@@ -24,7 +24,8 @@ The goal is to build a strong foundation in JavaScript, backend development, com
 | Day 10 | Callbacks, Event Loop, Callback Queue & Async JavaScript | ✅ |
 | Day 11 | Promises, Promise Chaining, Error Handling & Microtask Queue | ✅ |
 | Day 12 | Closures | ✅ |
-| Day 13 | Async/Await | ⏳ |
+| Day 13 | Iterators & Generators | ✅ |
+| Day 14 | Async/Await | ⏳ |
 
 ---
 
@@ -50,6 +51,15 @@ backend-journey/
 │   ├── private-variables.js
 │   ├── function-factory.js
 │   ├── closures-in-loops.js
+│   ├── backend-examples.js
+│   ├── exercises.js
+│   └── mini-project.js
+│
+├── day-13/
+│   ├── iterators.js
+│   ├── custom-iterators.js
+│   ├── generators.js
+│   ├── yield.js
 │   ├── backend-examples.js
 │   ├── exercises.js
 │   └── mini-project.js
@@ -103,8 +113,15 @@ backend-journey/
 - ✅ Closures in Loops
 - ✅ var vs let (Closures)
 - ✅ Closures — Backend Use Cases
+- ✅ Iterators
+- ✅ Iterator Protocol
+- ✅ Symbol.iterator
+- ✅ Custom Iterators
+- ✅ Generators
+- ✅ function* / yield
+- ✅ Lazy Evaluation
+- ✅ Iterators & Generators — Backend Use Cases
 - ⏳ Async/Await
-- ⏳ Iterators & Generators
 
 ---
 
@@ -190,6 +207,19 @@ Every topic follows the same learning process:
 
 ---
 
+# 💡 Key Takeaways — Iterators & Generators (Day 13)
+
+- Iterators return one value at a time using the next() method.
+- next() always returns an object containing value and done.
+- Custom Iterators use closures to remember their current state.
+- Generator Functions automatically implement the Iterator Protocol.
+- yield pauses execution and next() resumes it from the same position.
+- next(value) can send values back into a Generator.
+- Generators support lazy evaluation, making them memory efficient.
+- Iterators and Generators are useful for streaming data, pagination, background jobs and processing large datasets.
+
+---
+
 # 🎯 Goals
 
 - Master JavaScript
@@ -209,7 +239,7 @@ Every topic follows the same learning process:
 ```text
 JavaScript Fundamentals        ████████████████████ 100%
 
-Advanced JavaScript            ██████████████████░░ 90%
+Advanced JavaScript            ███████████████████░ 95%
 
 Backend Development            ░░░░░░░░░░░░░░░░░░░ 0%
 
@@ -225,6 +255,7 @@ Computer Science               ░░░░░░░░░░░░░░░░�
 - ✅ Callbacks
 - ✅ Promises
 - ✅ Closures
+- ✅ Iterators & Generators
 - ⏳ Async/Await
 - ⏳ Node.js
 
@@ -232,9 +263,9 @@ Computer Science               ░░░░░░░░░░░░░░░░�
 
 # 📈 Repository Stats
 
-- 📁 **Days Completed:** 12
-- 💻 **Code Files:** 78+
-- 🚀 **Mini Projects:** 11+
+- 📁 **Days Completed:** 13
+- 💻 **Code Files:** 85+
+- 🚀 **Mini Projects:** 12+
 - 📝 **Notes & Documentation:** Daily
 - 🌿 **Git Commits:** Daily
 
