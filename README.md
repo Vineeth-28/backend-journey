@@ -25,7 +25,9 @@ The goal is to build a strong foundation in JavaScript, backend development, com
 | Day 11 | Promises, Promise Chaining, Error Handling & Microtask Queue | ✅ |
 | Day 12 | Closures | ✅ |
 | Day 13 | Iterators & Generators | ✅ |
-| Day 14 | Async/Await | ⏳ |
+| Day 14 | Async/Await | ✅ |
+| Day 15 | DBMS Fundamentals (SQL vs NoSQL) | ✅ |
+| Day 16 | Database Design (Schema, Keys, Relationships, Normalization, ER Diagrams) | ✅ |
 
 ---
 
@@ -63,6 +65,32 @@ backend-journey/
 │   ├── backend-examples.js
 │   ├── exercises.js
 │   └── mini-project.js
+│
+├── day-14/
+│   ├── async-functions.js
+│   ├── await.js
+│   ├── error-handling.js
+│   ├── promise-vs-async-await.js
+│   ├── backend-examples.js
+│   ├── exercises.js
+│   ├── mini-project.js
+│   └── README.md
+│
+├── day-15/
+│   ├── dbms-basics.md
+│   ├── sql-vs-nosql.md
+│   ├── backend-examples.md
+│   ├── interview-questions.md
+│   └── README.md
+│
+├── day-16/
+│   ├── database-design.md
+│   ├── normalization.md
+│   ├── keys.md
+│   ├── er-diagrams.md
+│   ├── design-problems.md
+│   ├── interview-questions.md
+│   └── README.md
 │
 └── README.md
 ```
@@ -121,7 +149,10 @@ backend-journey/
 - ✅ function* / yield
 - ✅ Lazy Evaluation
 - ✅ Iterators & Generators — Backend Use Cases
-- ⏳ Async/Await
+- ✅ Async/Await
+- ✅ Promise Resolution & Rejection
+- ✅ try...catch (Async Error Handling)
+- ✅ Promise vs Async/Await
 
 ---
 
@@ -151,8 +182,28 @@ backend-journey/
 - ⏳ HTTP
 - ⏳ Networking
 - ⏳ Operating Systems
-- ⏳ DBMS
+- ✅ Data & Information
+- ✅ File Systems & Their Limitations
+- ✅ DBMS
 - ⏳ RDBMS
+- ✅ SQL vs NoSQL
+- ✅ Database Design
+- ✅ Database Schema
+- ✅ Tables, Rows & Columns
+- ✅ Primary Keys
+- ✅ Foreign Keys
+- ✅ Referential Integrity
+- ✅ Candidate Keys
+- ✅ Super Keys
+- ✅ Composite Keys
+- ✅ One-to-One Relationships
+- ✅ One-to-Many Relationships
+- ✅ Many-to-Many Relationships
+- ✅ Junction / Association Tables
+- ✅ Functional Dependencies
+- ✅ Data Duplication & Update Anomalies
+- ✅ Normalization (1NF, 2NF, 3NF)
+- ✅ ER Diagrams
 - ⏳ Caching
 - ⏳ Scalability
 - ⏳ Distributed Systems
@@ -220,6 +271,41 @@ Every topic follows the same learning process:
 
 ---
 
+# 💡 Key Takeaways — Async/Await (Day 14)
+
+- async functions always return a Promise.
+- await unwraps the resolved value from a Promise.
+- await pauses only the current async function.
+- Rejected Promises jump directly to the catch block.
+- try...catch is the preferred way to handle async errors.
+- Async/Await makes asynchronous code easier to read than Promise chains.
+- Async/Await is widely used in modern Node.js and Express applications.
+
+---
+
+# 💡 Key Takeaways — DBMS Fundamentals (Day 15)
+
+- Data is raw facts; information is processed data.
+- Databases organize data efficiently, solving the problems plain file systems run into.
+- DBMS manages databases.
+- SQL stores structured data in tables; NoSQL stores flexible, document-based data.
+- SQL is best for relationships and transactions; NoSQL is best for scalability and flexible schemas.
+- Backend engineers choose databases based on application needs.
+
+---
+
+# 💡 Key Takeaways — Database Design (Day 16)
+
+- Good schema design starts with identifying entities, attributes, and relationships before writing SQL — data belongs in a table based on what it represents, not convenience.
+- Primary, foreign, candidate, super, and composite keys are what make relationships and referential integrity enforceable.
+- One-to-one, one-to-many, and many-to-many relationships each map to a different schema pattern; many-to-many relies on a junction/association table.
+- Functional dependencies explain *why* data duplication and update anomalies happen in a badly designed schema.
+- Normalization (1NF → 3NF) systematically removes that redundancy; denormalization trades some of it back for read performance.
+- ER diagrams are the bridge between real-world requirements and an actual relational schema.
+- Practicing full design problems (e-commerce, booking systems, etc.) is what turns theory into interview-ready skill.
+
+---
+
 # 🎯 Goals
 
 - Master JavaScript
@@ -239,11 +325,11 @@ Every topic follows the same learning process:
 ```text
 JavaScript Fundamentals        ████████████████████ 100%
 
-Advanced JavaScript            ███████████████████░ 95%
+Advanced JavaScript            ████████████████████ 100%
 
 Backend Development            ░░░░░░░░░░░░░░░░░░░ 0%
 
-Computer Science               ░░░░░░░░░░░░░░░░░░░ 0%
+Computer Science               ████████░░░░░░░░░░░ 40%
 ```
 
 ---
@@ -256,14 +342,15 @@ Computer Science               ░░░░░░░░░░░░░░░░�
 - ✅ Promises
 - ✅ Closures
 - ✅ Iterators & Generators
-- ⏳ Async/Await
+- ✅ Async/Await
+- ✅ DBMS & Database Design
 - ⏳ Node.js
 
 ---
 
 # 📈 Repository Stats
 
-- 📁 **Days Completed:** 13
+- 📁 **Days Completed:** 16
 - 💻 **Code Files:** 85+
 - 🚀 **Mini Projects:** 12+
 - 📝 **Notes & Documentation:** Daily
