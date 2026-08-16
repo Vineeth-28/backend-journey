@@ -4,7 +4,7 @@
 
 **My journey to becoming a Production-Ready Backend Engineer.**
 
-[![Days](https://img.shields.io/badge/Days%20Completed-18-brightgreen)](#-progress)
+[![Days](https://img.shields.io/badge/Days%20Completed-20-brightgreen)](#-progress)
 [![Commits](https://img.shields.io/badge/Commits-Daily-blue)](#)
 [![Focus](https://img.shields.io/badge/Currently%20Learning-Node.js-success)](#-current-focus)
 
@@ -38,6 +38,8 @@ The goal is to build a strong foundation in **JavaScript**, **backend developmen
 | 16 | Database Design (Schema, Keys, Relationships, Normalization, ER Diagrams) | ✅ |
 | 17 | Node.js Runtime & Concurrency Fundamentals (V8, Processes, Threads, Concurrency vs Parallelism) | ✅ |
 | 18 | Node.js Internals (libuv, Event Loop, Thread Pool) & Node.js Modules (CommonJS, ES Modules) | ✅ |
+| 19 | Node.js File System (`fs`) — Sync vs Async I/O, Callbacks, Core Methods | ✅ |
+| 20 | What Happens When You Visit www.google.com? (DNS, IP, TCP, TLS, HTTPS, HTTP Request/Response, Client-Server Communication) | ✅ |
 
 ---
 
@@ -121,6 +123,12 @@ backend-journey/
 │   ├── interview-questions.md
 │   └── README.md
 │
+├── day-19/
+│   └── README.md
+│
+├── day-20/
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -200,7 +208,8 @@ backend-journey/
 - ✅ Asynchronous I/O
 - ✅ Blocking vs Non-Blocking Operations
 - ✅ Node.js Modules (CommonJS & ES Modules)
-- ⏳ File System APIs
+- ✅ File System APIs (`fs` — sync vs async, callbacks, read/write/append/delete)
+- ✅ Client-Server Communication Fundamentals (DNS, TCP, TLS, HTTPS, HTTP Request/Response)
 - ⏳ Express.js
 - ⏳ REST APIs
 - ⏳ Authentication
@@ -224,8 +233,8 @@ backend-journey/
 <details>
 <summary><strong>Full checklist</strong> (click to expand)</summary>
 
-- ⏳ HTTP
-- ⏳ Networking
+- ✅ HTTP
+- ✅ Networking (DNS, IP Addressing, TCP, TLS, HTTPS)
 - ✅ Operating Systems Basics (Processes, Threads, Concurrency, Parallelism)
 - ✅ Data & Information
 - ✅ File Systems & Their Limitations
@@ -306,8 +315,8 @@ Every topic follows the same process:
 ```text
 JavaScript Fundamentals        ████████████████████ 100%
 Advanced JavaScript            ████████████████████ 100%
-Backend Development            ███░░░░░░░░░░░░░░░░░  15%
-Computer Science               ██████████░░░░░░░░░░  50%
+Backend Development            █████░░░░░░░░░░░░░░░  25%
+Computer Science               ████████████░░░░░░░░  60%
 ```
 
 ---
@@ -321,7 +330,9 @@ Computer Science               ██████████░░░░░░�
 - ✅ Node.js Runtime & Concurrency Fundamentals
 - ✅ Node.js Internals (libuv, Event Loop, Thread Pool)
 - ✅ Node.js Modules (CommonJS & ES Modules)
-- ⏳ File System APIs *(next up)*
+- ✅ Node.js File System APIs (`fs`)
+- ✅ Client-Server Communication (DNS → TCP → TLS → HTTPS → HTTP Request/Response)
+- ⏳ Express.js *(next up)*
 
 ---
 
@@ -329,7 +340,7 @@ Computer Science               ██████████░░░░░░�
 
 | Metric | Value |
 |---|---|
-| 📁 Days Completed | 18 |
+| 📁 Days Completed | 20 |
 | 💻 Code Files | 89+ |
 | 🚀 Mini Projects | 12+ |
 | 📝 Notes & Documentation | Daily |
