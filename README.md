@@ -4,7 +4,7 @@
 
 **My journey to becoming a Production-Ready Backend Engineer.**
 
-[![Days](https://img.shields.io/badge/Days%20Completed-20-brightgreen)](#-progress)
+[![Days](https://img.shields.io/badge/Days%20Completed-21-brightgreen)](#-progress)
 [![Commits](https://img.shields.io/badge/Commits-Daily-blue)](#)
 [![Focus](https://img.shields.io/badge/Currently%20Learning-Node.js-success)](#-current-focus)
 
@@ -40,6 +40,7 @@ The goal is to build a strong foundation in **JavaScript**, **backend developmen
 | 18 | Node.js Internals (libuv, Event Loop, Thread Pool) & Node.js Modules (CommonJS, ES Modules) | ✅ |
 | 19 | Node.js File System (`fs`) — Sync vs Async I/O, Callbacks, Core Methods | ✅ |
 | 20 | What Happens When You Visit www.google.com? (DNS, IP, TCP, TLS, HTTPS, HTTP Request/Response, Client-Server Communication) | ✅ |
+| 21 | Backend System Architecture & MVC (Load Balancers, Caching, Model-View-Controller, Route → Controller → Service → Repository) | ✅ |
 
 ---
 
@@ -127,6 +128,12 @@ backend-journey/
 │   └── README.md
 │
 ├── day-20/
+│   ├── README.md
+│   ├── networking-request-journey.md
+│   ├── backend-system-architecture.md
+│   └── mvc-architecture.md
+│
+├── day-21/
 │   └── README.md
 │
 └── README.md
@@ -210,6 +217,8 @@ backend-journey/
 - ✅ Node.js Modules (CommonJS & ES Modules)
 - ✅ File System APIs (`fs` — sync vs async, callbacks, read/write/append/delete)
 - ✅ Client-Server Communication Fundamentals (DNS, TCP, TLS, HTTPS, HTTP Request/Response)
+- ✅ Backend System Architecture (Load Balancers, Caching)
+- ✅ MVC Architecture (Model, View, Controller, Route → Controller → Service → Repository)
 - ⏳ Express.js
 - ⏳ REST APIs
 - ⏳ Authentication
@@ -263,9 +272,12 @@ backend-journey/
 - ✅ Concurrency vs Parallelism
 - ✅ libuv & Event Loop Architecture
 - ✅ Module Systems (CommonJS vs ES Modules)
-- ⏳ Caching
-- ⏳ Scalability
+- ✅ Load Balancing
+- ✅ Caching Fundamentals
+- ✅ MVC Architecture
+- ⏳ Scalability (deep dive)
 - ⏳ Distributed Systems
+- ⏳ LSM Trees & Database Storage Internals *(deferred)*
 
 </details>
 
@@ -315,8 +327,8 @@ Every topic follows the same process:
 ```text
 JavaScript Fundamentals        ████████████████████ 100%
 Advanced JavaScript            ████████████████████ 100%
-Backend Development            █████░░░░░░░░░░░░░░░  25%
-Computer Science               ████████████░░░░░░░░  60%
+Backend Development            ██████░░░░░░░░░░░░░░  30%
+Computer Science               █████████████░░░░░░░  65%
 ```
 
 ---
@@ -332,6 +344,7 @@ Computer Science               ████████████░░░░�
 - ✅ Node.js Modules (CommonJS & ES Modules)
 - ✅ Node.js File System APIs (`fs`)
 - ✅ Client-Server Communication (DNS → TCP → TLS → HTTPS → HTTP Request/Response)
+- ✅ Backend System Architecture & MVC (Load Balancers, Caching, Model-View-Controller)
 - ⏳ Express.js *(next up)*
 
 ---
@@ -340,7 +353,7 @@ Computer Science               ████████████░░░░�
 
 | Metric | Value |
 |---|---|
-| 📁 Days Completed | 20 |
+| 📁 Days Completed | 21 |
 | 💻 Code Files | 89+ |
 | 🚀 Mini Projects | 12+ |
 | 📝 Notes & Documentation | Daily |
