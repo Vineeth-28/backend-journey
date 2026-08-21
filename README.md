@@ -4,7 +4,7 @@
 
 **My journey to becoming a Production-Ready Backend Engineer.**
 
-[![Days](https://img.shields.io/badge/Days%20Completed-21-brightgreen)](#-progress)
+[![Days](https://img.shields.io/badge/Days%20Completed-24-brightgreen)](#-progress)
 [![Commits](https://img.shields.io/badge/Commits-Daily-blue)](#)
 [![Focus](https://img.shields.io/badge/Currently%20Learning-Node.js-success)](#-current-focus)
 
@@ -41,6 +41,9 @@ The goal is to build a strong foundation in **JavaScript**, **backend developmen
 | 19 | Node.js File System (`fs`) — Sync vs Async I/O, Callbacks, Core Methods | ✅ |
 | 20 | What Happens When You Visit www.google.com? (DNS, IP, TCP, TLS, HTTPS, HTTP Request/Response, Client-Server Communication) | ✅ |
 | 21 | Backend System Architecture & MVC (Load Balancers, Caching, Model-View-Controller, Route → Controller → Service → Repository) | ✅ |
+| 22 | HTTP & APIs (HTTP Protocol Deep Dive, API Types — REST/GraphQL/gRPC/SOAP/WebSocket, REST API Design Principles) | ✅ |
+| 23 | Applied Database Design — Airbnb-style Schema (ER Diagram, Booking Flow, Search Scaling) | ✅ |
+| 24 | Applied Database Design — Hotel Booking Schema (Room Inventory, Overbooking Prevention, Booking Flow) | ✅ |
 
 ---
 
@@ -136,6 +139,19 @@ backend-journey/
 ├── day-21/
 │   └── README.md
 │
+├── day-22/
+│   ├── README.md
+│   ├── http-protocol.md
+│   ├── api-types.md
+│   ├── rest-api.md
+│   └── interview-questions.md
+│
+├── day-23/
+│   └── README.md
+│
+├── day-24/
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -219,8 +235,10 @@ backend-journey/
 - ✅ Client-Server Communication Fundamentals (DNS, TCP, TLS, HTTPS, HTTP Request/Response)
 - ✅ Backend System Architecture (Load Balancers, Caching)
 - ✅ MVC Architecture (Model, View, Controller, Route → Controller → Service → Repository)
+- ✅ HTTP Protocol Deep Dive (Methods, Status Codes, Headers, Statelessness, HTTP/1.1 vs 2 vs 3)
+- ✅ API Architectural Styles (REST, GraphQL, gRPC, SOAP, WebSocket)
+- ✅ REST API Design Principles (Constraints, Resource Design, Versioning, Pagination, HATEOAS)
 - ⏳ Express.js
-- ⏳ REST APIs
 - ⏳ Authentication
 - ⏳ Authorization
 - ⏳ JWT
@@ -237,13 +255,27 @@ backend-journey/
 
 ---
 
+## 🏗️ Applied System Design Practice
+
+Real-world database design problems, practiced end-to-end (requirements → entities → ER diagram → key design decisions → booking/flow diagram → interview talking points).
+
+- ✅ **Airbnb-style Database Design** — Users, Properties, Availability, Bookings, Payments, Reviews; preventing double-booking; search scaling with Elasticsearch + CDC (Day 23)
+- ✅ **Hotel Booking Database Design** — Room Types, quantity-based Room Inventory, preventing overbooking, multi-room-type bookings, dynamic pricing (Day 24)
+- ⏳ More system design case studies *(planned)*
+
+---
+
 ## 🧠 Computer Science
 
 <details>
 <summary><strong>Full checklist</strong> (click to expand)</summary>
 
 - ✅ HTTP
+- ✅ HTTP Methods, Status Codes & Headers
+- ✅ HTTP/1.1 vs HTTP/2 vs HTTP/3
 - ✅ Networking (DNS, IP Addressing, TCP, TLS, HTTPS)
+- ✅ API Architectural Styles (REST, GraphQL, gRPC, SOAP, WebSocket)
+- ✅ REST Constraints & Richardson Maturity Model
 - ✅ Operating Systems Basics (Processes, Threads, Concurrency, Parallelism)
 - ✅ Data & Information
 - ✅ File Systems & Their Limitations
@@ -267,6 +299,8 @@ backend-journey/
 - ✅ Data Duplication & Update Anomalies
 - ✅ Normalization (1NF, 2NF, 3NF)
 - ✅ ER Diagrams
+- ✅ Applied Schema Design (Airbnb, Hotel Booking)
+- ✅ Overbooking Prevention (Locking, Atomic Updates, Exclusion Constraints)
 - ✅ V8 Engine (Ignition, TurboFan, JIT, Orinoco)
 - ✅ Processes vs Threads
 - ✅ Concurrency vs Parallelism
@@ -327,8 +361,8 @@ Every topic follows the same process:
 ```text
 JavaScript Fundamentals        ████████████████████ 100%
 Advanced JavaScript            ████████████████████ 100%
-Backend Development            ██████░░░░░░░░░░░░░░  30%
-Computer Science               █████████████░░░░░░░  65%
+Backend Development            ███████░░░░░░░░░░░░░  36%
+Computer Science               ███████████████░░░░░  75%
 ```
 
 ---
@@ -345,6 +379,9 @@ Computer Science               █████████████░░░�
 - ✅ Node.js File System APIs (`fs`)
 - ✅ Client-Server Communication (DNS → TCP → TLS → HTTPS → HTTP Request/Response)
 - ✅ Backend System Architecture & MVC (Load Balancers, Caching, Model-View-Controller)
+- ✅ HTTP Protocol & API Architectural Styles (REST, GraphQL, gRPC, SOAP, WebSocket)
+- ✅ REST API Design Principles
+- ✅ Applied Database Design Practice (Airbnb, Hotel Booking)
 - ⏳ Express.js *(next up)*
 
 ---
@@ -353,8 +390,8 @@ Computer Science               █████████████░░░�
 
 | Metric | Value |
 |---|---|
-| 📁 Days Completed | 21 |
-| 💻 Code Files | 89+ |
+| 📁 Days Completed | 24 |
+| 💻 Code Files | 93+ |
 | 🚀 Mini Projects | 12+ |
 | 📝 Notes & Documentation | Daily |
 | 🌿 Git Commits | Daily |
