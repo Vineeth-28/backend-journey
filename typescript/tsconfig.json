@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* --- Modern JavaScript output, Node.js-friendly --- */
+    "target": "ES2020",              // compile down to a modern, widely-supported JS version
+    "module": "commonjs",            // Node.js's native module system
+    "lib": ["ES2020"],               // available built-in APIs during type-checking
+    "moduleResolution": "node",      // resolve imports the way Node.js does
+
+    /* --- Strict type checking (catches the most mistakes) --- */
+    "strict": true,                  // enables all strict type-checking options below
+    "noImplicitAny": true,           // error on variables/params with an inferred `any`
+    "strictNullChecks": true,        // `null`/`undefined` must be handled explicitly
+    "noUnusedLocals": true,          // flag unused local variables
+    "noUnusedParameters": true,      // flag unused function parameters
+    "noFallthroughCasesInSwitch": true, // catch accidental switch-case fallthrough
+
+    /* --- Source & output directories --- */
+    "rootDir": "./src",              // where your .ts source files live
+    "outDir": "./dist",              // where compiled .js files are written
+
+    /* --- Interop & general project hygiene --- */
+    "esModuleInterop": true,         // smoother interop between CommonJS and ES modules
+    "forceConsistentCasingInFileNames": true, // avoid cross-OS casing bugs
+    "skipLibCheck": true             // skip type-checking of .d.ts files for faster builds
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
