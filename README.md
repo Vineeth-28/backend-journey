@@ -4,15 +4,15 @@
 
 **My journey to becoming a Production-Ready Backend Engineer.**
 
-[![Days](https://img.shields.io/badge/Days%20Completed-24-brightgreen)](#-progress)
+[![Days](https://img.shields.io/badge/Days%20Completed-29-brightgreen)](#-progress)
 [![Commits](https://img.shields.io/badge/Commits-Daily-blue)](#)
-[![Focus](https://img.shields.io/badge/Currently%20Learning-Node.js-success)](#-current-focus)
+[![Focus](https://img.shields.io/badge/Currently%20Learning-TypeScript-success)](#-current-focus)
 
 </div>
 
 This repository documents my journey of learning backend engineering from the ground up. Every day includes concept notes, hands-on coding, practice exercises, mini projects, interview preparation, and a Git commit.
 
-The goal is to build a strong foundation in **JavaScript**, **backend development**, **computer science fundamentals**, and **production-ready system design**.
+The goal is to build a strong foundation in **JavaScript**, **TypeScript**, **backend development**, **computer science fundamentals**, and **production-ready system design**.
 
 ---
 
@@ -44,6 +44,12 @@ The goal is to build a strong foundation in **JavaScript**, **backend developmen
 | 22 | HTTP & APIs (HTTP Protocol Deep Dive, API Types — REST/GraphQL/gRPC/SOAP/WebSocket, REST API Design Principles) | ✅ |
 | 23 | Applied Database Design — Airbnb-style Schema (ER Diagram, Booking Flow, Search Scaling) | ✅ |
 | 24 | Applied Database Design — Hotel Booking Schema (Room Inventory, Overbooking Prevention, Booking Flow) | ✅ |
+| 25 | Applied REST API Design — Practical Examples & Case Studies | ✅ |
+| 26 | TypeScript Basics (Primitives, Type Annotations, Inference, Union Types, Arrays, Tuples, Functions) | ✅ |
+| 27 | TypeScript Objects, Types & Interfaces (Structural Typing, Type Aliases, Interfaces, `type` vs `interface`, Function Types) | ✅ |
+| 28 | TypeScript Special Types & Enums (`any`/`unknown`/`void`/`never`, Numeric & String Enums, Type Narrowing, Practical Auth Form) | ✅ |
+| 29 | TypeScript Classes (Constructors, Access Modifiers, `readonly`, Inheritance, Encapsulation) | ✅ |
+| 30 | TypeScript Generics (Generic Functions, Generic Arrays, Generic Classes, Generic Stack, Generic Search) | ✅ |
 
 ---
 
@@ -112,6 +118,81 @@ The goal is to build a strong foundation in **JavaScript**, **backend developmen
 
 ---
 
+## 🔷 TypeScript Roadmap
+
+<details>
+<summary><strong>Type System Fundamentals</strong> (click to expand)</summary>
+
+- ✅ Primitive Types (`string`, `number`, `boolean`, `undefined`, `null`, `bigint`, `symbol`)
+- ✅ Type Annotations / Type Signatures
+- ✅ Type Inference
+- ✅ Static Typing & Type Safety
+- ✅ Union Types
+- ✅ Literal Types
+- ✅ Typed Arrays
+- ✅ Heterogeneous Arrays
+- ✅ Tuples
+- ✅ Function Parameter & Return Types
+- ✅ Optional Parameters & Default Parameters
+
+</details>
+
+<details>
+<summary><strong>Objects, Types & Interfaces</strong> (click to expand)</summary>
+
+- ✅ Object Typing
+- ✅ Structural Typing
+- ✅ Type Aliases
+- ✅ Interfaces as Contracts
+- ✅ Optional Properties
+- ✅ Readonly Properties
+- ✅ Indexed Interfaces
+- ✅ Function Types (`type` & callable `interface`)
+- ✅ `type` vs `interface`
+
+</details>
+
+<details>
+<summary><strong>Special Types, Enums & Narrowing</strong> (click to expand)</summary>
+
+- ✅ `any` (and why to avoid it in production backend code)
+- ✅ `unknown`
+- ✅ `void`
+- ✅ `never`
+- ✅ Numeric Enums
+- ✅ Custom-Valued Numeric Enums
+- ✅ String Enums
+- ✅ Type Narrowing (`typeof`, truthiness, `in`)
+- ✅ Practical Auth Form Type Modeling
+
+</details>
+
+<details>
+<summary><strong>Classes & OOP</strong> (click to expand)</summary>
+
+- ✅ Classes, Constructors, Properties, Methods
+- ✅ Access Modifiers (`public`, `private`, `protected`)
+- ✅ `readonly` Properties
+- ✅ Inheritance (`extends`, `super`)
+- ✅ Method Overriding
+- ✅ Encapsulation (Getters & Setters)
+
+</details>
+
+<details>
+<summary><strong>Generics</strong> (click to expand)</summary>
+
+- ✅ Why Generics Exist
+- ✅ Generic Functions
+- ✅ Generic Arrays
+- ✅ Generic Classes
+- ✅ Generic Stack (LIFO Data Structure)
+- ✅ Generic Linear Search
+
+</details>
+
+---
+
 ## 🖥️ Backend Development
 
 - ✅ Node.js Runtime Fundamentals (V8, Processes, Threads, Concurrency)
@@ -128,6 +209,9 @@ The goal is to build a strong foundation in **JavaScript**, **backend developmen
 - ✅ HTTP Protocol Deep Dive (Methods, Status Codes, Headers, Statelessness, HTTP/1.1 vs 2 vs 3)
 - ✅ API Architectural Styles (REST, GraphQL, gRPC, SOAP, WebSocket)
 - ✅ REST API Design Principles (Constraints, Resource Design, Versioning, Pagination, HATEOAS)
+- ✅ TypeScript Fundamentals & Type System
+- ✅ TypeScript OOP (Classes, Access Modifiers, Encapsulation)
+- ✅ TypeScript Generics
 - ⏳ Express.js
 - ⏳ Authentication
 - ⏳ Authorization
@@ -151,6 +235,7 @@ Real-world database design problems, practiced end-to-end (requirements → enti
 
 - ✅ **Airbnb-style Database Design** — Users, Properties, Availability, Bookings, Payments, Reviews; preventing double-booking; search scaling with Elasticsearch + CDC (Day 23)
 - ✅ **Hotel Booking Database Design** — Room Types, quantity-based Room Inventory, preventing overbooking, multi-room-type bookings, dynamic pricing (Day 24)
+- ✅ **Applied REST API Design** — worked examples and case studies applying REST principles to real endpoint design (Day 25)
 - ⏳ More system design case studies *(planned)*
 
 ---
@@ -199,6 +284,8 @@ Real-world database design problems, practiced end-to-end (requirements → enti
 - ✅ Load Balancing
 - ✅ Caching Fundamentals
 - ✅ MVC Architecture
+- ✅ Static Typing & Type Systems (TypeScript)
+- ✅ Structural Typing
 - ⏳ Scalability (deep dive)
 - ⏳ Distributed Systems
 - ⏳ LSM Trees & Database Storage Internals *(deferred)*
@@ -211,7 +298,7 @@ Real-world database design problems, practiced end-to-end (requirements → enti
 
 | Category | Technologies |
 |---|---|
-| **Language** | JavaScript (ES6+) |
+| **Language** | JavaScript (ES6+), TypeScript |
 | **Backend** | Node.js, Express.js |
 | **Databases** | MongoDB, SQL |
 | **DevOps & Tools** | Git, GitHub, Docker, Redis |
@@ -235,6 +322,7 @@ Every topic follows the same process:
 ## 🎯 Goals
 
 - Master JavaScript
+- Master TypeScript
 - Become proficient in Node.js & Express
 - Build Production-Ready REST APIs
 - Learn Database Design
@@ -251,8 +339,9 @@ Every topic follows the same process:
 ```text
 JavaScript Fundamentals        ████████████████████ 100%
 Advanced JavaScript            ████████████████████ 100%
-Backend Development            ███████░░░░░░░░░░░░░  36%
-Computer Science               ███████████████░░░░░  75%
+TypeScript                     ████████████████████ 100%
+Backend Development            █████████░░░░░░░░░░░  44%
+Computer Science               ████████████████░░░░  78%
 ```
 
 ---
@@ -272,6 +361,8 @@ Computer Science               ███████████████░�
 - ✅ HTTP Protocol & API Architectural Styles (REST, GraphQL, gRPC, SOAP, WebSocket)
 - ✅ REST API Design Principles
 - ✅ Applied Database Design Practice (Airbnb, Hotel Booking)
+- ✅ Applied REST API Design — Practical Examples & Case Studies
+- ✅ TypeScript — Fundamentals, Objects & Interfaces, Special Types & Enums, Classes & OOP, Generics
 - ⏳ Express.js *(next up)*
 
 ---
@@ -280,8 +371,8 @@ Computer Science               ███████████████░�
 
 | Metric | Value |
 |---|---|
-| 📁 Days Completed | 24 |
-| 💻 Code Files | 93+ |
+| 📁 Days Completed | 29 |
+| 💻 Code Files | 120+ |
 | 🚀 Mini Projects | 12+ |
 | 📝 Notes & Documentation | Daily |
 | 🌿 Git Commits | Daily |
