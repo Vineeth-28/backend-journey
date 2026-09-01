@@ -4,9 +4,9 @@
 
 **My journey to becoming a Production-Ready Backend Engineer.**
 
-[![Days](https://img.shields.io/badge/Days%20Completed-29-brightgreen)](#-progress)
+[![Days](https://img.shields.io/badge/Days%20Completed-31-brightgreen)](#-progress)
 [![Commits](https://img.shields.io/badge/Commits-Daily-blue)](#)
-[![Focus](https://img.shields.io/badge/Currently%20Learning-TypeScript-success)](#-current-focus)
+[![Focus](https://img.shields.io/badge/Currently%20Learning-Node.js-success)](#-current-focus)
 
 </div>
 
@@ -50,6 +50,7 @@ The goal is to build a strong foundation in **JavaScript**, **TypeScript**, **ba
 | 28 | TypeScript Special Types & Enums (`any`/`unknown`/`void`/`never`, Numeric & String Enums, Type Narrowing, Practical Auth Form) | ✅ |
 | 29 | TypeScript Classes (Constructors, Access Modifiers, `readonly`, Inheritance, Encapsulation) | ✅ |
 | 30 | TypeScript Generics (Generic Functions, Generic Arrays, Generic Classes, Generic Stack, Generic Search) | ✅ |
+| 31 | Node.js Core `http` Module — Building a Plain HTTP Server, Handling GET/POST Methods, Status Codes & Headers | ✅ |
 
 ---
 
@@ -212,6 +213,7 @@ The goal is to build a strong foundation in **JavaScript**, **TypeScript**, **ba
 - ✅ TypeScript Fundamentals & Type System
 - ✅ TypeScript OOP (Classes, Access Modifiers, Encapsulation)
 - ✅ TypeScript Generics
+- ✅ Node.js Core `http` Module (Creating a Server, Request/Response Objects, Method-based Routing)
 - ⏳ Express.js
 - ⏳ Authentication
 - ⏳ Authorization
@@ -340,7 +342,7 @@ Every topic follows the same process:
 JavaScript Fundamentals        ████████████████████ 100%
 Advanced JavaScript            ████████████████████ 100%
 TypeScript                     ████████████████████ 100%
-Backend Development            █████████░░░░░░░░░░░  44%
+Backend Development            █████████░░░░░░░░░░░  47%
 Computer Science               ████████████████░░░░  78%
 ```
 
@@ -363,6 +365,7 @@ Computer Science               ████████████████�
 - ✅ Applied Database Design Practice (Airbnb, Hotel Booking)
 - ✅ Applied REST API Design — Practical Examples & Case Studies
 - ✅ TypeScript — Fundamentals, Objects & Interfaces, Special Types & Enums, Classes & OOP, Generics
+- ✅ Node.js Core `http` Module — Plain HTTP Server, Request Methods, Status Codes & Headers
 - ⏳ Express.js *(next up)*
 
 ---
@@ -371,7 +374,7 @@ Computer Science               ████████████████�
 
 | Metric | Value |
 |---|---|
-| 📁 Days Completed | 29 |
+| 📁 Days Completed | 31 |
 | 💻 Code Files | 120+ |
 | 🚀 Mini Projects | 12+ |
 | 📝 Notes & Documentation | Daily |
